@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <!-- TITULO -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro de Profesor"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+
+        <!-- DATOS PERSONALES -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datos personales"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1A237E"/>
+
+
+                <EditText
+                    android:id="@+id/edtNumeroEmpleado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Número de empleado"
+                    android:layout_marginTop="10dp"
+                    android:inputType="text"/>
+
+
+                <EditText
+                    android:id="@+id/edtNombreProfesor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre completo"
+                    android:inputType="textPersonName"/>
+
+
+                <EditText
+                    android:id="@+id/edtCorreoProfesor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Correo institucional"
+                    android:inputType="textEmailAddress"/>
+
+
+                <EditText
+                    android:id="@+id/edtTelefonoProfesor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Teléfono"
+                    android:inputType="phone"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <!-- SEXO -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sexo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <RadioGroup
+                    android:id="@+id/rgSexoProfesor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/rbProfesorHombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hombre"/>
+
+
+                    <RadioButton
+                        android:id="@+id/rbProfesorMujer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mujer"/>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <!-- INFORMACION ACADEMICA -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Información académica"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:text="Especialidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <Spinner
+                    android:id="@+id/spEspecialidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <TextView
+                    android:text="Grado académico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"/>
+
+
+                <Spinner
+                    android:id="@+id/spGradoAcademico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <!-- MATERIAS -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:text="Materias que imparte"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <CheckBox
+                    android:id="@+id/chkPOO"
+                    android:text="Programación Orientada a Objetos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <CheckBox
+                    android:id="@+id/chkBD"
+                    android:text="Bases de Datos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <CheckBox
+                    android:id="@+id/chkRedes"
+                    android:text="Redes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <CheckBox
+                    android:id="@+id/chkCiberseguridad"
+                    android:text="Ciberseguridad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <!-- BOTONES -->
+
+
+        <Button
+            android:id="@+id/btnRegistrarProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Registrar Profesor"/>
+
+
+        <Button
+            android:id="@+id/btnBuscarProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Buscar Profesor"/>
+
+
+        <Button
+            android:id="@+id/btnActualizarProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Actualizar Profesor"/>
+
+
+        <Button
+            android:id="@+id/btnEliminarProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Eliminar Profesor"/>
+
+
+
+
+
+        <!-- LISTA -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista de Profesores"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+        <ListView
+            android:id="@+id/listViewProfesores"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

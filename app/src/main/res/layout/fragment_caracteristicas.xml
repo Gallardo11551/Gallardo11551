@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proyectos de TI y TIID"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona un proyecto para conocer más."
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- FILA 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/proyecto1"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="10dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/proyecto"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/proyecto2"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="10dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/proyecto2"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- FILA 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <FrameLayout
+                android:id="@+id/proyecto3"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="10dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/proyecto3"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/proyecto4"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="10dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/proyecto4"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

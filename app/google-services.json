@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840737297712",
+    "project_id": "uppue-edutech",
+    "storage_bucket": "uppue-edutech.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840737297712:android:56f8ab6f40c0f4e61ae4f5",
+        "android_client_info": {
+          "package_name": "com.example.uppueedutech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwWXIuQSnJBw2ze6EGD0FA0DuiaAaSdPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

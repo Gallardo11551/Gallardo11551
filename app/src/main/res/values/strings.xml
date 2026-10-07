@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">UPPUE EduTech</string>
+    <string name="slogan">Aprende • Descubre • Innova</string>
+    <string name="welcome">Bienvenido</string>
+
+    <!-- Home -->
+    <string name="btn_start">Comenzar</string>
+    <string name="home_description">
+        Explora el Modelo Educativo de las Universidades Politécnicas mediante una experiencia interactiva.
+    </string>
+
+    <!-- Drawer -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_model">Modelo Educativo</string>
+    <string name="menu_competencias">Competencias</string>
+    <string name="menu_caracteristicas">Proyectos TI y TIID</string>
+    <string name="menu_historia">Historieta</string>
+    <string name="menu_game">Juego</string>
+    <string name="menu_videocarrera">Conoce la Carrera</string>
+    <string name="menu_about">Acerca de</string>
+
+    <!-- Modelo -->
+    <string name="modelo_titulo">Modelo Educativo</string>
+
+    <string name="modelo_descripcion">
+        Descubre cómo las Universidades Politécnicas forman profesionistas mediante un modelo basado en competencias.
+    </string>
+
+    <string name="que_es">¿Qué es?</string>
+
+    <string name="que_es_texto">
+        Es un modelo basado en competencias que desarrolla conocimientos, habilidades, actitudes y valores para resolver problemas reales.
+    </string>
+
+    <string name="objetivo">Objetivo</string>
+
+    <string name="objetivo_texto">
+        Formar profesionistas capaces de innovar, aplicar conocimientos y responder a las necesidades del entorno.
+    </string>
+
+    <string name="mision">Misión de la Carrera TI y TIID</string>
+    <string name="mision_texto">Formar profesionales en Tecnologías de la Información e Innovación Digital con competencias técnicas y éticas para impulsar la transformación digital.</string>
+    <string name="btn_proyectos_ti">Proyectos de TI y TIID</string>
+
+    <!-- Competencias -->
+
+    <string name="competencias_titulo">
+        Competencias
+    </string>
+
+    <string name="competencias_descripcion">
+        Las competencias integran conocimientos, habilidades, actitudes y valores para el desempeño profesional.
+    </string>
+
+    <string name="competencia1">
+        Aprender a aprender
+    </string>
+
+    <string name="competencia2">
+        Trabajo en equipo
+    </string>
+
+    <string name="competencia3">
+        Innovación
+    </string>
+
+    <string name="competencia4">
+        Resolución de problemas
+    </string>
+
+    <string name="proyectos_titulo">Proyectos de TI y TIID</string>
+
+    <string name="proyectos_descripcion">
+Conoce algunos proyectos desarrollados en el área de Tecnologías de la Información.
+</string>
+
+    <string name="proyecto1">Proyecto 1</string>
+    <string name="proyecto2">Proyecto 2</string>
+    <string name="proyecto3">Proyecto 3</string>
+    <string name="proyecto4">Proyecto 4</string>
+
+    <string name="proyecto1_titulo">Proyecto 1</string>
+    <string name="proyecto1_descripcion">¡Talento que inspira! Compitieron resolviendo los retos propuestos por Microside Technology, partner de Microchip Technology Inc., en las categorías de alumbrado público inteligente y sistema de bacheo municipal automatizado.</string>
+
+    <string name="proyecto2_titulo">Proyecto 2</string>
+    <string name="proyecto2_descripcion">Se llevó a cabo el taller Data Driven: La Ciencia Detrás de las Grandes Decisiones, dirigido a estudiantes de 7º grado de la UPPue, basado en datos y su impacto en la toma de decisiones reales.</string>
+
+    <string name="proyecto3_titulo">Proyecto 3</string>
+    <string name="proyecto3_descripcion">Estudiantes de 5to cuatrimestre presentaron ante los profesores y profesoras de TI los resultados de su trabajo en la materia de proyecto integrador II.</string>
+
+    <string name="proyecto4_titulo">Proyecto 4</string>
+    <string name="proyecto4_descripcion">Estudiantes de TI y TIID presentaron sus proyectos en el evento de la 2da edición de "Inteligencia Artificial y Deporte Ciencia".</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="evaluacion_titulo">Realiza una simulación de tu Evaluación</string>
+    <string name="evaluacion_desc">Seleeciona el porcentaje de puntos y descubre si acreditas la unidad.</string>
+    <string name="calcular_resultado">Calcular Resultado</string>
+    <string name="info">Información</string>
+
+    <string name="juego_titulo">🎮 Atrapa las corresctas </string>
+    <string name="iniciar_juego">Iniciar Juego</string>
+
+    <string name="acerca_app">UPPUEEduTech</string>
+
+    <string name="acerca_version">Versión 1.1</string>
+
+    <string name="acerca_frase">Transformando el aprendizaje con tecnología.</string>
+
+    <string name="acerca_carrera_titulo">Carrera</string>
+
+    <string name="acerca_carrera">Ingeniería en Tecnologías de la Información</string>
+
+    <string name="acerca_universidad_titulo">Universidad</string>
+
+    <string name="acerca_universidad">Universidad Politécnica de Puebla</string>
+
+    <string name="acerca_desarrollador_titulo">Desarrollador</string>
+
+    <string name="acerca_desarrollador">Equipo de Desarrollo Noveno Cuatrimestre</string>
+
+    <string name="acerca_agradecimiento_titulo">Agradecimiento</string>
+
+    <string name="acerca_agradecimiento">
+Gracias por utilizar UPPUEEduTech. Esta aplicación fue desarrollada para apoyar a los estudiantes de nuevo ingreso de la Universidad Politécnica de Puebla.
+</string>
+
+    <string name="acerca_footer">© 2026 UPPUEEduTech</string>
+
+    <!-- Strings adicionales para tarjetas del Modelo Educativo -->
+    <string name="competencias_texto">
+        Integra conocimientos, habilidades y valores para un desempeño profesional exitoso.
+    </string>
+
+    <string name="valores_texto">
+        Promueve responsabilidad, respeto, trabajo en equipo, inclusión e innovación.
+    </string>
+
+    <string name="perfil_egreso">Perfil de egreso</string>
+
+    <string name="perfil_egreso_texto">
+        El egresado cuenta con competencias para desarrollar soluciones tecnológicas, innovar y trabajar en equipos multidisciplinarios.
+    </string>
+
+</resources>
